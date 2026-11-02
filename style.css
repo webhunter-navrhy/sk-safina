@@ -56,7 +56,7 @@ button{background:var(--o);color:#fff;border:0;padding:14px;font:inherit;font-we
 footer{background:#111;color:#aaa;text-align:center;padding:20px;font-size:.9rem}
 @media(max-width:860px){
 .cards,.split,.contact .grid,.pobocky{grid-template-columns:1fr}
-.card{grid-template-columns:1fr}.card img{height:190px}
+.card{grid-template-columns:1fr 1.4fr}.card img{height:100%;min-height:150px}
 .burger{display:block}
 .top nav{display:none;position:absolute;left:0;right:0;top:100%;background:#fff;flex-direction:column;align-items:flex-start;gap:0;padding:8px 20px 16px;border-bottom:1px solid #e6e1d8}
 #mn:checked~nav{display:flex}
